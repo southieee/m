@@ -1,0 +1,27 @@
+[{
+		"time": 0,
+		"commands": []
+	},{
+		"time": 10,
+		"commands": [{
+				"id": 1,
+				"method": "workers.reset.all",
+				"params": []
+			}]
+	}, {
+		"time": 15,
+		"loop": 15,
+		"commands": [{
+				"id": 1,
+				"method": "worker.print.efficiencies",
+				"params": []
+			}, {
+				"id": 1,
+				"method": "workers.reset.all",
+				"params": []
+			}]
+	}, {
+		"event": "on_quit",
+		"commands": []
+	}
+]
